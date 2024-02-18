@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 st.set_page_config(
-    page_title="Chat with the PDF",
+    page_title="Chat with the Resume",
     page_icon="📄",
     layout="centered",
     initial_sidebar_state="auto",
@@ -19,7 +19,7 @@ st.set_page_config(
 
 if "messages" not in st.session_state.keys():  # Initialize the chat messages history
     st.session_state.messages = [
-        {"role": "assistant", "content": "Ask me a question about your document!"}
+        {"role": "assistant", "content": "Ask me a question about your resume!"}
     ]
 
 uploaded_file = st.file_uploader("Upload your resume")
