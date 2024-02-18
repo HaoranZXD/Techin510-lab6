@@ -1,0 +1,6 @@
+streamlit
+llama_index.core 
+llama_index.llms.openai
+llama_index.readers.file
+llama-index-embeddings-openai
+python-dotenv
